@@ -1,0 +1,221 @@
+
+body
+{
+    padding: 0px;
+    margin: 0px;
+}
+
+.container {
+    text-align:center;
+    position: absolute;
+    top: 21%;
+    botoom: 50%;
+    left: 41.5%;
+}
+
+#gslogo{
+    width: 450px;
+    position: absolute;
+    top: 12%;
+    botoom: 45%;
+    left: 37%;
+}
+
+#gilogo{
+    width: 270px
+}
+
+#gaicon{
+    background: url(../images/google_logo111.png) no-repeat scroll 2px 2px;
+    position: absolute;
+    cursor: pointer;
+    width: 86px;
+    height: 32px;
+    border: 0px solid black;
+    left: 1%;
+    top: 2%;
+    font-size: 0px;
+}
+
+#advsearchtitle{
+    font-size: 20px;
+    font-family: Arial;
+    color: #e13527;
+    position: absolute;
+    top: 7%;
+    left: 2.3%;
+}
+#settings{
+    position: absolute;
+    top: 15%;
+    left: 2.3%;
+    font-family: Arial;
+    font-size: 15px;
+}
+
+.imtext {
+    position: absolute;
+    bottom: 5px;
+    left: 213px;
+    color: blue;
+    font-family: Arial;
+    font-size: 16px
+}
+
+#ifield{
+    position: absolute;
+    top: 33%;
+    botoom: 50%;
+    left: 33%;
+    border-radius: 30px;
+    width: 500px;
+    height: 20px;
+    padding: 5px;
+    margin: 20px;
+    border: 2px solid #e2e4e7;
+    outline: none;
+    background: url(../images/loopa.png) no-repeat scroll 13px 7px;
+    padding-left:45px;
+}
+
+#ifield:hover{
+    box-shadow:0 0 5px 2px #e2e4e7;
+    border: 1px solid white;
+}
+#gbutton_s:hover, #gbutton_l:hover{
+    border: 1px solid #DADCE0;
+}
+
+.set1{
+    position: absolute;
+    left: 140%;
+    width: 500px;
+    height: 20px;
+    border: 1px solid #D5D7DB;
+}
+
+.set1:focus{
+    outline: 1px solid blue;
+}
+
+#gbutton_s{
+    background: #f8f9fa;
+    border-radius: 7px;
+    cursor: pointer;
+    font-size: 14px;
+    width: 135px;
+    height: 40px;
+    padding: 10px;
+    margin: 5px;
+    border: 0px solid #eee;
+    position: absolute;
+    top: 40%;
+    left: 41.5%;
+}
+
+#gbutton_l{
+    background: #f8f9fa;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    width: 115px;
+    height: 40px;
+    padding: 3px;
+    margin: 5px;
+    border: 0px solid #eee;
+    position: absolute;
+    left: 49.2%;
+    top: 40%;
+}
+
+#advbutton{
+    background: #3e87f0;
+    border-radius: 5px;
+    font-size: 12px;
+    font-familly: Arial;
+    color: white;
+    width: 130px;
+    height: 30px;
+    padding: 3px;
+    margin: 5px;
+    border: 1px solid #eee;
+    position: absolute;
+    left: 383%;
+    top: 110%;
+}
+
+#bloopa{
+    background: url(../images/blueloopa.png) no-repeat scroll 2px 5px;
+    position: absolute;
+    width: 22px;
+    height: 30px;
+    border: 0px solid black;
+    left: 61%;
+    top: 35.5%;
+    font-size: 0px;
+}
+
+div.menu{
+    position: absolute;
+    top: 2%;
+    left: 83%;
+    margin: 5px;
+    padding: 5px;
+    font-size: 14px;
+    font-family: Arial;
+
+}
+
+#footer{
+    position: absolute;
+    bottom: 7%;
+    width: 100%;
+    height: 5%;
+    font-size: 15px;
+    font-family: Arial;
+    color: #70757a;
+    background-color: #f2f2f2;
+    border-width: 1px;
+    border-bottom-style: solid;
+    border-color: #dadce0;
+}
+
+
+#flfooterl{
+    position: absolute;
+    bottom: 2%;
+    width: 50%;
+    height: 5%;
+    font-size: 14px;
+    font-family: Arial;
+    color: #70757a;
+    background-color: #f2f2f2;
+}
+
+#flfooterr{
+    position: absolute;
+    bottom: 2%;
+    left: 50%;
+    width: 50%;
+    height: 5%;
+    font-size: 14px;
+    font-family: Arial;
+    color: #70757a;
+    background-color: #f2f2f2;
+}
+
+a {
+  outline: none;
+  text-decoration: none;
+  padding: 2px 1px 0;
+  color: black;
+}
+
+a:hover{
+  text-decoration: underline;
+}
+
+a:active {
+  color: none;
+}
+
